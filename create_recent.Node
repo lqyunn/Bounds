@@ -1,0 +1,14 @@
+MeshInstance3D
+CSGBox3D
+Node3D
+Label
+AudioStreamPlayer
+Area3D
+CollisionShape3D
+CharacterBody3D
+ColorRect
+CanvasLayer
+AudioStreamPlayer3D
+Marker3D
+CSGCombiner3D
+WorldEnvironment

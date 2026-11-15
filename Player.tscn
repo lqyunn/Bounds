@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://ds5327r01auln"]
+
+[ext_resource type="Script" uid="uid://bl4ijlmdmtg6i" path="res://scenes/player.gd" id="1_p0vlq"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_v6fml"]
+radius = 0.4
+height = 1.8
+
+[node name="Player" type="CharacterBody3D" unique_id=1239700123 groups=["player"]]
+script = ExtResource("1_p0vlq")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=113138965]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.9, 0)
+shape = SubResource("CapsuleShape3D_v6fml")
+
+[node name="Head" type="Node3D" parent="." unique_id=1986605522]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.6, 0)
+
+[node name="Camera3D" type="Camera3D" parent="Head" unique_id=1334632467]
+
+[node name="Flashlight" type="SpotLight3D" parent="Head/Camera3D" unique_id=1843328814]
+light_energy = 6.0
+shadow_enabled = true
+spot_range = 10.0
+spot_angle = 35.0

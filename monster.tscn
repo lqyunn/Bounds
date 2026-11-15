@@ -1,0 +1,75 @@
+[gd_scene format=3 uid="uid://bcj6p0rprj601"]
+
+[ext_resource type="Script" uid="uid://bnbqkdiaac4kb" path="res://scenes/monster.gd" id="1_uwnm8"]
+[ext_resource type="PackedScene" uid="uid://di85hnsdchoi3" path="res://horror doll 3d model.glb" id="2_1cbnp"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_1cbnp"]
+height = 1.8
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_uj04i"]
+albedo_color = Color(0.68235296, 0.019607844, 0, 1)
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_c47ug"]
+material = SubResource("StandardMaterial3D_uj04i")
+radius = 0.4
+height = 1.8
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jlss8"]
+albedo_color = Color(0.8108891, 1.92523e-06, 1.347661e-06, 1)
+emission_enabled = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_gp4s5"]
+emission_enabled = true
+emission = Color(1, 0, 0, 1)
+emission_energy_multiplier = 3.0
+
+[sub_resource type="SphereMesh" id="SphereMesh_gdl1p"]
+radius = 0.06
+height = 0.12
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_p5viw"]
+emission_enabled = true
+emission = Color(0.98039216, 0, 0, 1)
+emission_energy_multiplier = 3.0
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_v8ewj"]
+emission_enabled = true
+emission = Color(1, 0, 0, 1)
+emission_energy_multiplier = 3.0
+
+[sub_resource type="SphereMesh" id="SphereMesh_yce20"]
+radius = 0.06
+height = 0.12
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jc63w"]
+emission_enabled = true
+emission = Color(0.98039216, 0, 0, 1)
+emission_energy_multiplier = 3.0
+
+[node name="Monster" type="Area3D" unique_id=1154994077]
+script = ExtResource("1_uwnm8")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=995099280]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.9, 0)
+shape = SubResource("CapsuleShape3D_1cbnp")
+
+[node name="Body" type="MeshInstance3D" parent="." unique_id=551407165]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.9, 0)
+visible = false
+mesh = SubResource("CapsuleMesh_c47ug")
+surface_material_override/0 = SubResource("StandardMaterial3D_jlss8")
+
+[node name="EyeL" type="MeshInstance3D" parent="." unique_id=30977775]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.09511449, 1.4399707, -0.0952065)
+material_override = SubResource("StandardMaterial3D_gp4s5")
+mesh = SubResource("SphereMesh_gdl1p")
+surface_material_override/0 = SubResource("StandardMaterial3D_p5viw")
+
+[node name="EyeR" type="MeshInstance3D" parent="." unique_id=1241825158]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.06853202, 1.4671481, -0.112884134)
+material_override = SubResource("StandardMaterial3D_v8ewj")
+mesh = SubResource("SphereMesh_yce20")
+surface_material_override/0 = SubResource("StandardMaterial3D_jc63w")
+
+[node name="horror doll 3d model" parent="." unique_id=2041932907 instance=ExtResource("2_1cbnp")]
+transform = Transform3D(-1.6999487, 0, 0.013215713, 0, 1.7, 0, -0.013215713, 0, -1.6999487, 0, 0, 0)

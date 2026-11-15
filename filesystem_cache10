@@ -1,0 +1,24 @@
+78098b89c88a74ebe8c20117b8754620
+::res://::1794724295
+bgm.wav::AudioStreamWAV::6937985115872197883::1794716621::1794716644::1::::<><><>0<>0<>2a904ae45c6bc6c1715b57742604f7f6<>res://.godot/imported/bgm.wav-2aed991c2003cbb4426a8b399655a61c.sample::
+export_presets.cfg::TextFile::-1::1794722738::0::1::::<><><>0<>0<><>::
+horror doll 3d model.glb::PackedScene::7790731987157164956::1794718497::1794718501::1::::<><><>0<>0<>bbea817ea6aed4c0bab0e8db37924191<>res://.godot/imported/horror doll 3d model.glb-43815733c042cde453bb7b1ab6a74dee.scn::uid://bs0t8emwo1ev8::::res://horror doll 3d model_horror_doll_3d_model_basecolor.jpg
+horror doll 3d model_horror_doll_3d_model_basecolor.jpg::CompressedTexture2D::3702642096740971627::1794718499::1794718501::1::::<><><>0<>0<>aaa35d39109af630f5edf6c37d4586dd<>res://.godot/imported/horror doll 3d model_horror_doll_3d_model_basecolor.jpg-37d10d0ed48497558253e5d47123e636.s3tc.ctex::
+icon.svg::CompressedTexture2D::8346083259443954739::1794663999::1794664012::1::::<><><>0<>0<>5b2c1d7e972d1185dd429f66be01726a<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+image22.png::CompressedTexture2D::268645846394184327::1794715779::1794715812::1::::<><><>0<>0<>d6a5c23c935e7be70fef3382fd27cf08<>res://.godot/imported/image22.png-fa7657d17f65835db170afd716d90f72.s3tc.ctex::
+images.jpg::CompressedTexture2D::2044686814684303052::1794715686::1794715780::1::::<><><>0<>0<>5128a0a8d09ad18fcb1e3bd4ff7655df<>res://.godot/imported/images.jpg-828aec76970545e387c8e5ec74aa0b53.s3tc.ctex::
+new_standard_material_3d.tres::StandardMaterial3D::7321135192563744611::1794675326::0::1::::<><><>0<>0<><>::uid://4epxth2wjtbw::::res://images.jpg
+Rusted Key.glb::PackedScene::1123382035783748076::1794705965::1794705989::1::::<><><>0<>0<>370bd1aaedc4ed23462b7c3766744e0d<>res://.godot/imported/Rusted Key.glb-bb75d64fb73cebadd2c16c09f5af968f.scn::uid://b4px522103o6m::::res://Rusted Key_MetalCorrodedHeavy001_COL_2K_METALNESS.jpg<>uid://godbof6bfm6y::::res://Rusted Key_MetalCorrodedHeavy001_METALNESS_2K_METALNESS_jpg-MetalCorrodedHeavy001_ROUGHNESS_2K_METALNESS_jpg.png<>uid://d0c0ofqhd65xu::::res://Rusted Key_MetalCorrodedHeavy001_NRM16_2K_METALNESS_tiff.png
+Rusted Key_MetalCorrodedHeavy001_COL_2K_METALNESS.jpg::CompressedTexture2D::4454314341213732690::1794705983::1794705992::1::::<><><>0<>0<>e7b74fabc4cc3ba8757572dba73a6e5e<>res://.godot/imported/Rusted Key_MetalCorrodedHeavy001_COL_2K_METALNESS.jpg-776500977a5a711308127bb88a55fee9.s3tc.ctex::
+Rusted Key_MetalCorrodedHeavy001_METALNESS_2K_METALNESS_jpg-MetalCorrodedHeavy001_ROUGHNESS_2K_METALNESS_jpg.png::CompressedTexture2D::450219031618205502::1794705985::1794705992::1::::<><><>0<>0<>b87e47f54e9ce85065e55f7573e42a5a<>res://.godot/imported/Rusted Key_MetalCorrodedHeavy001_METALNESS_2K_METALNESS_jpg-MetalCorrodedHeavy001_ROUGHNESS_2K_METALNESS_jpg.png-767266473466c26a695e26d7c63f830b.s3tc.ctex::
+Rusted Key_MetalCorrodedHeavy001_NRM16_2K_METALNESS_tiff.png::CompressedTexture2D::8919655111128994722::1794705981::1794705992::1::::<><><>0<>0<>f9b89f8caa087d6b72d59246ec0cf8b5<>res://.godot/imported/Rusted Key_MetalCorrodedHeavy001_NRM16_2K_METALNESS_tiff.png-d5cb70ff848a698c01326236d2581d4c.s3tc.ctex::
+synth.wav::AudioStreamWAV::7080550909115189988::1794677580::1794677672::1::::<><><>0<>0<>d36a171cbc030423a1eab107d22494aa<>res://.godot/imported/synth.wav-7830cc088c2f284b459e4d3a0e7b0eb4.sample::
+::res://scenes/::1794723562
+main.gd::GDScript::4130932552554898542::1794721864::0::1::::<>Node3D<><>0<>0<><>::
+main.tscn::PackedScene::4659196922147763600::1794723562::0::1::::<><><>0<>0<><>::uid://dckoa6g3deidn::::res://new_standard_material_3d.tres<>uid://by4b4dcwerwxa::::res://scenes/main.gd<>uid://ds5327r01auln::::res://scenes/Player.tscn<>uid://bcj6p0rprj601::::res://scenes/monster.tscn<>uid://qaf65lg0yy3e::::res://Rusted Key.glb<>uid://c744vyw6uq37u::::res://synth.wav<>uid://c532uo82mic7t::::res://bgm.wav
+monster.gd::GDScript::3301929528493492441::1794676921::0::1::::<>Area3D<><>0<>0<><>::
+monster.tscn::PackedScene::2547288124490105824::1794718838::0::1::::<><><>0<>0<><>::uid://bnbqkdiaac4kb::::res://scenes/monster.gd<>uid://di85hnsdchoi3::::res://horror doll 3d model.glb
+player.gd::GDScript::3218867323114068214::1794679821::0::1::::<>CharacterBody3D<><>0<>0<><>::
+Player.tscn::PackedScene::8486342569598106067::1794718837::0::1::::<><><>0<>0<><>::uid://bl4ijlmdmtg6i::::res://scenes/player.gd
+::res://scripts/::1794677361
+GameState.gd::GDScript::4359871351696261996::1794674192::0::1::::<>Node<><>0<>0<><>::
